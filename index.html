@@ -2,11 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style src="style.css"></style>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card_Slider</title>
 </head>
 <body>
+    <div class="containerv swiper">
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="user-imag.png" alt="Image" class="image">
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="user-imag.png" alt="Image" class="image">
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="user-imag.png" alt="Image" class="image">
+                </div>
+                <div class="card-item swiper-slide">
+                    <img src="user-imag.png" alt="Image" class="image">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
