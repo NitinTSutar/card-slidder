@@ -36,7 +36,7 @@ const addNewCard = () => {
     newCard.className = 'card-item swiper-slide';
 
     const img = document.createElement('img');
-    img.src = `https://picsum.photos/600/280?random=${imageCounter++}`;
+    img.src = `https://picsum.photos/200/280?random=${imageCounter++}`;
     img.alt = 'Image';
     img.className = 'image';
 
